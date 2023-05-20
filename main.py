@@ -17,7 +17,7 @@ def read_file(path_file):
     return full_dish
 
 cook_book = read_file(k)
-# pprint(cook_book)
+pprint(cook_book)
 
 
 def get_shop_list_by_dishes(dishes, person_count):
